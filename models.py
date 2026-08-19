@@ -13,3 +13,6 @@ class Booking(BaseModel):
     userId: int
     eventId: int
     ticketCount: int = Field(..., ge=1)  
+
+
+    
